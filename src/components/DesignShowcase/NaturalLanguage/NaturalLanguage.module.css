@@ -1,0 +1,15 @@
+/* NaturalLanguage 컴포넌트 고유 스타일 */
+
+.exampleContent {
+  color: #212529;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.exampleContent p {
+  margin: 8px 0;
+}
+
+.exampleContent strong {
+  color: #4160B6;
+}

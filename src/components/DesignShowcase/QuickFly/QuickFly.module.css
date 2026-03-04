@@ -1,0 +1,58 @@
+/* QuickFly 컴포넌트 고유 스타일 */
+
+.chatContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+
+.messageBox {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #e5e5ec;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.messageBox p {
+  margin: 0;
+  color: #212529;
+  font-size: 14px;
+}
+
+.messageBox p + p {
+  margin-top: 8px;
+}
+
+.quickButtonsContainer {
+  display: flex;
+  gap: 10px;
+
+}
+
+.quickButton {
+  padding: 12px 16px;
+  border: none;
+  background: #F7F7F8;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #333;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.quickButton:hover {
+  background: #E9EFFF;
+}
+
+
+.timestamp {
+  font-size: 12px;
+  color: #868e96;
+  text-align: left;
+  margin-top: 8px;
+}
+
